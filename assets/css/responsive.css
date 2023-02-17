@@ -1,0 +1,123 @@
+@media (max-width: 1660px) {
+    .container {
+        max-width: 1170px;
+    }
+}
+
+@media (max-width: 1330px) {
+    .container {
+        max-width: 972px;
+    }
+    .desc {
+        max-width: 800px;
+    }
+    .tech {
+        gap: 10px;
+    }
+}
+
+@media (max-width: 1130px) {
+    .container {
+        max-width: 760px;
+    }
+    .desc {
+        max-width: 600px;
+    }
+    .tech {
+        gap: 0px;
+    }
+    .tech-heading {
+        font-size: 22px;
+    }
+}
+
+@media (max-width: 1023px) {
+    .container {
+        max-width: 630px;
+    }
+    .tech {
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 50px;
+        justify-content: center;
+    }
+    .tech-item {
+        flex: 0 0 40%;
+        max-width: 40%;
+    }
+}
+
+@media (max-width: 800px) {
+    .side-bar {
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        width: 100%;
+        min-height: 46px;
+        height: 45px;
+        background: #000;
+        max-width: 100vh;
+        z-index: 2;
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        justify-content: space-between;
+        padding: 0 10px;
+        overflow: hidden;
+    }
+    .side-bar-list {
+        /* display: flex; */
+        list-style: none;
+    }
+    .side-bar-item {
+        padding-right: 16px;
+        border-bottom: none;
+    }
+    .side-bar-item:hover {
+        background: #000;
+        color: #fff;
+    }
+    .content {
+        margin-top: 45px;
+    }
+    .container {
+        max-width: 500px;
+    }
+    .desc {
+        max-width: 400px;
+        padding: 0 20px;
+    }
+    .tech {
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 50px;
+        justify-content: center;
+    }
+    .tech-item {
+        flex: 0 0 100%;
+        max-width: 100%;
+        padding: 0 15px;
+    }
+    .logo {
+        width: 100%;
+    }
+    .logo-img {
+        width: 70%;
+        height: unset;
+    }
+    .mobile-menu-btn {
+        display: block;
+        border: none;
+        padding-left: 12px;
+        padding-right: 12px;
+        margin-right: 5px;
+    }
+    .mobile-menu-icon {
+        color: #aaaaaa;
+        font-size: 22px;
+    }
+    .mobile-menu-btn:hover > .mobile-menu-icon {
+        color: #fff;
+    }
+}
